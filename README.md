@@ -9,7 +9,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | :rocket: URL         |https://gustavo-portifolio-iota.vercel.app
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://postimg.cc/jLy2GDMZ#vitrinedev)
 
 ## Detalhes do projeto
 
