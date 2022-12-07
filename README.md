@@ -1,6 +1,6 @@
 # Site de Portifólio
 
-Rápida descrição do objetivo de fazer esse projeto
+Site responsivo para apresentar minhas habilidades em no Front-End
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
