@@ -9,8 +9,10 @@ Rápida descrição do objetivo de fazer esse projeto
 | :rocket: URL         |https://gustavo-portifolio-iota.vercel.app
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://pbs.twimg.com/media/FjZKRKzXwF0FJoM?format=jpg&name=large#vitrinedev)
 
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+Este é um projeto que desenvolvi após concluir minha formação de Front-end na Alura
+Nela pude explorar meus conhecimentos em HTML5, CSS3, SEO e mais. Em breve pretendo
+adicionar mais componentes, como uma verificação de formulário com JS e mais.
