@@ -1,0 +1,95 @@
+.skills {
+    animation: surgir 2s normal;
+    padding-top: 5rem;
+}
+
+.skills__titulo {
+    animation: surgir 2s normal;
+    border-bottom: 2px solid var(--cor-principal);
+    color: var(--branco);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0.5em 2em 0 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.skills__areas-front, .skills__areas-back {
+    background: var(--cor-fundo-claro);
+    border-radius: 20px;
+    color: var(--branco);
+    margin: 2.5em 4em 1em 4em;
+    padding: 2em 1em;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.skills__areas-front:hover, .skills__areas-back:hover {
+    background: var(--cor-fundo-escuro);
+    border: 0.5px solid var(--cor-principal);
+    box-shadow: 0 0 90px var(--sombra-principal);
+}
+
+.skills__areas-front-titulo, .skills__areas-back-titulo {
+    color: var(--cor-principal);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.skills__areas-front-lista-itens, .skills__areas-back-lista-itens {
+    margin-top: 1em;
+    text-transform: uppercase;
+}
+
+@keyframes surgir {
+    0% { transform: translateX(-100%);}
+    50% { transform: translateX(+0.1%);}
+}
+
+@media screen and (min-width: 768px) {
+    .skills__titulo {
+        margin: 0.5em 5em 0 5em;
+    }
+
+    .skills__areas-front, .skills__areas-back {
+        margin: 2.5em 0 1em 0;
+        padding: 2em 5em;
+        transition: 0.4s;
+    }
+
+    .skills__areas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills__areas-back {
+        margin: 2.5em 0 10em 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skills__titulo {
+        margin: 0.5em 7em 0 7em;
+    }
+
+    .skills__areas-front, .skills__areas-back {
+        height: 10em;
+        width: 10em;
+        padding: 2em 5em;
+        transition: 0.4s;
+    }
+
+    .skills__areas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3em;
+    }
+
+    .skills__areas-back, .skills__areas-front {
+        margin: 4em 0 10em 0;
+    }
+}
