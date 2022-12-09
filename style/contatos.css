@@ -57,6 +57,7 @@ a:hover {
     font-family: var(--fonte-principal);
     font-weight: 700;
     color: var(--branco);
+    cursor: pointer;
 }
 
 .contatos__links {
