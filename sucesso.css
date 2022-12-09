@@ -1,0 +1,27 @@
+@import url("./style.css");
+body {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-top: 5em;
+    font-size: 3em;
+}
+
+button {
+    margin-top: 2em;
+    background: transparent;
+    border: 1px solid var(--cor-principal);
+    color: var(--cor-principal);
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-family: var(--fonte-principal);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--cor-principal);
+    color: var(--branco);
+}

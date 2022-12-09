@@ -112,12 +112,14 @@
             <h2 class="contatos__titulo">CONTATOS</h2>
             <div class="contatos__contatar">
             <div>
-                <form class="contatos__contatar_form">
-                    <p class="contatos__form_titulo">Em breve funcionando</p>
-                    <input class="contatos__form_inputNome" type="text" placeholder="  Digite seu nome" required disabled>
-                    <input class="contatos__form_inputEmail" type="email" placeholder="  Digite seu email" required disabled>
-                    <input class="contatos__form_inputMensagem" type="text" placeholder="  Mensagem" required disabled>
-                    <button class="contatos__form_botao" disabled>Enviar</button>
+                <form class="contatos__contatar_form" action="https://formsubmit.co/gustavovsouza90@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="https://gustavo-portifolio-iota.vercel.app/#contatos">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input class="contatos__form_inputNome" type="text" name="nome" placeholder="  Digite seu nome" required>
+                    <input class="contatos__form_inputNome" type="text" name="assunto" placeholder="  Assunto" required>
+                    <input class="contatos__form_inputEmail" type="email" name="email" placeholder="  Digite seu email" required>
+                    <textarea class="contatos__form_inputMensagem" type="text" name="mensagem" placeholder="  Mensagem" required></textarea>
+                    <button type="submit" class="contatos__form_botao">Enviar</button>
                 </form>
             </div>
 
