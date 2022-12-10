@@ -6,7 +6,7 @@ Site responsivo para apresentar minhas habilidades em no Front-End
 | -------------  | --- |
 | :sparkles: Nome        | **Site de Portifólio**
 | :label: Tecnologias | HTML5, CSS3 (tecnologias utilizadas)
-| :rocket: URL         |https://gustavo-portifolio-iota.vercel.app
+| :rocket: URL         |https://gustavo-souza-portifolio.vercel.app
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://pbs.twimg.com/media/FjZKRKzXwF0FJoM?format=jpg&name=large#vitrinedev)
