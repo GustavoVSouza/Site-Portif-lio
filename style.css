@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url("/style/home.css");
-@import url("/style/skills.css");
-@import url("/style/projetos.css");
-@import url("/style/certificados.css");
-@import url("/style/contatos.css");
-@import url("/style/nav.css");
+@import url("./style/home.css");
+@import url("./style/skills.css");
+@import url("./style/projetos.css");
+@import url("./style/certificados.css");
+@import url("./style/contatos.css");
+@import url("./style/nav.css");
 
 :root {
     --cor-principal: #00B1FC;
