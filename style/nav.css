@@ -4,10 +4,11 @@
 
 @media screen and (min-width: 768px) {
     .topo {
-        display: block;
+        display: flex;
         position: fixed;
         bottom: 0;
-        margin: 0 1vw;
+        margin-left: 25vw;
+        
     }
     
     .nav {
@@ -36,5 +37,5 @@
 
 @media screen and (min-width: 1024px) {
     .topo {
-        left: 35%;
+        margin: 0 30vw;
     }

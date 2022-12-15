@@ -24,7 +24,8 @@
 
 .projetos__card {
     text-align: center;
-    background: var(--cor-fundo-claro);
+    background: var(--cor-fundo-escuro);
+    border: .5px solid var(--cor-principal);
     border-radius: 20px;
     margin: 2rem 0 0 0;
     transition: 0.2s;
@@ -38,9 +39,6 @@
     max-width: 270px;
 }
 
-.projetos__card:hover {
-    filter: drop-shadow(0 0 5px var(--cor-principal));
-}
 
 .projetos__card_texto {
     align-items: center;
@@ -79,6 +77,10 @@
 @media screen and (min-width: 768px) {
     .projetos__titulo {
         margin: 0.5em 5em 0 5em;
+    }
+
+    .projetos__card:hover, .projetos__card img:hover  {
+        filter: drop-shadow(0 0 10px var(--cor-principal));
     }
 
     .cards {

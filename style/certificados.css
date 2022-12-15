@@ -9,7 +9,7 @@
 }
 
 .certificados__campo-card {
-    background: var(--cor-fundo-claro);
+    background: var(--cor-fundo-escuro);
     margin: 1em 0 2em 0;
     border-radius: 20px;
     display: flex;
@@ -17,10 +17,6 @@
     align-items: center;
     max-width: 270px;
     transition: 0.2s;
-}
-
-.certificados__campo-card:hover {
-    filter: drop-shadow(0 0 100px var(--sombra-principal));
 }
 
 .certificados__titulo {
@@ -54,12 +50,6 @@
     transition: 0.2s;
 }
 
-.certificados__botao:hover {
-    background: var(--cor-principal);
-    box-shadow: 0 0 100px var(--cor-principal);
-    color: var(--branco);
-}
-
 @keyframes surgir {
     0% { transform: translateX(-100%);}
     50% { transform: translateX(+0.1%);}
@@ -77,5 +67,15 @@
         flex-direction: row;
         justify-content: center;
         gap: 2em;
+    }
+
+    .certificados__campo-card:hover{
+        filter: drop-shadow(0 0 30px var(--sombra-principal));
+    }
+
+    .certificados__botao:hover {
+        background: var(--cor-principal);
+        box-shadow: 0 0 100px var(--cor-principal);
+        color: var(--branco);
     }
 }

@@ -16,19 +16,14 @@
 
 
 .skills__areas-front, .skills__areas-back {
-    background: var(--cor-fundo-claro);
+    background: var(--cor-fundo-escuro);
+    border: .5px solid var(--cor-principal);
     border-radius: 20px;
     color: var(--branco);
     margin: 2.5em 4em 1em 4em;
     padding: 2em 1em;
     text-align: center;
     transition: 0.4s;
-}
-
-.skills__areas-front:hover, .skills__areas-back:hover {
-    background: var(--cor-fundo-escuro);
-    border: 0.5px solid var(--cor-principal);
-    box-shadow: 0 0 90px var(--sombra-principal);
 }
 
 .skills__areas-front-titulo, .skills__areas-back-titulo {
@@ -57,6 +52,13 @@
         margin: 2.5em 0 1em 0;
         padding: 2em 5em;
         transition: 0.4s;
+    }
+
+    
+    .skills__areas-front:hover, .skills__areas-back:hover {
+        background: var(--cor-fundo-escuro);
+        border: 0.5px solid var(--cor-principal);
+        box-shadow: 0 0 90px var(--sombra-principal);
     }
 
     .skills__areas {

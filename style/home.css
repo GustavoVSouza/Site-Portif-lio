@@ -77,8 +77,8 @@ strong {
     }
 
     .home__logo {
-        height: 20em;
-        width: 20em;
+        height: 30em;
+        width: 30em;
         margin: 5em 3em 0 1em;
     }
 
@@ -88,7 +88,7 @@ strong {
     }
 
     .home__textos-titulo {
-        font-size: 3em;
+        font-size: 4em;
     }
     
     .home__textos-texto {
