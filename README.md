@@ -4,7 +4,7 @@ Site responsivo para apresentar minhas habilidades no Front-End
 
 | ➡️ Vitrine.Dev |     |
 | -------------  | --- |
-| 🏷️ Nome        | **Site de Portifólio**
+| ⭐ Nome        | **Site de Portifólio**
 | :label: Tecnologias | HTML5, CSS3, Flexbox
 | :rocket: URL         |https://gustavo-souza-portifolio.vercel.app
 
