@@ -17,11 +17,6 @@
     --fonte-principal: 'Poppins', sans-serif;
 }
 
-strong::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, p::selection, a::selection, li::selection, button::selection{
-    background-color: var(--cor-principal);
-    color: var(--branco);
-}
-
 body {
     background: var(--cor-fundo);
     font-family: var(--fonte-principal);
