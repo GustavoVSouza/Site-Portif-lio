@@ -6,7 +6,7 @@
     .topo {
         display: flex;
         position: fixed;
-        bottom: 0;
+        bottom: 1em;
         margin-left: 25vw;
         
     }
