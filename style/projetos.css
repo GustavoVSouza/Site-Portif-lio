@@ -1,6 +1,7 @@
 .projetos {
     background: linear-gradient(var(--cor-fundo), var(--cor-fundo-escuro));
     padding-bottom: 5rem;
+    padding: 1em;
 }
 
 .projetos__titulo {
@@ -29,14 +30,14 @@
     border-radius: 20px;
     margin: 2rem 0 0 0;
     transition: 0.2s;
-    max-width: 270px;
 }
 
 
 .projetos__card-img {
-    border-radius: 10px;
+    border-radius: 1.3em;
     transition: 0.2s;
-    max-width: 270px;
+    width: 400px;
+    height: 250px;
 }
 
 
@@ -63,12 +64,6 @@
     transition: 0.2s;
 }
 
-.projetos__card-botao:hover {
-    background: var(--cor-principal);
-    box-shadow: 0 0 100px var(--cor-principal);
-    color: var(--branco);
-}
-
 @keyframes surgir {
     0% { transform: translateX(-100%);}
     50% { transform: translateX(+0.1%);}
@@ -90,5 +85,10 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 3em;
+    }
+    .projetos__card-botao:hover {
+        background: var(--cor-principal);
+        box-shadow: 0 0 100px var(--cor-principal);
+        color: var(--branco);
     }
 }
