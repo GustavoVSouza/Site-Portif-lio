@@ -74,7 +74,7 @@
         margin: 0.5em 5em 0 5em;
     }
 
-    .projetos__card:hover, .projetos__card img:hover  {
+    .projetos__card:hover {
         filter: drop-shadow(0 0 10px var(--cor-principal));
     }
 
