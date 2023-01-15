@@ -3,26 +3,26 @@
 }
 
 .certificados__campo {
-    display: flex;
     align-items: center;
+    display: flex;
     flex-direction: column;
 }
 
 .certificados__campo-card {
+    align-items: center;
     background: var(--cor-fundo-escuro);
-    margin: 1em 0 2em 0;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 1em 0 2em 0;
+    padding-bottom: 1em;
     transition: 0.2s;
-    height: 400px;
 }
 
 .certificados__campo-card img {
+    border-radius: 1em;
     height: 270px;
     width: 400px;
-    border-radius: 1em;
 }
 
 .certificados__titulo {
@@ -33,8 +33,8 @@
     font-weight: bold;
     margin: 0 0.5em 1em 0.5em;
     padding-top: 2rem;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .certificados__subtitulo {
@@ -53,9 +53,13 @@
     cursor: pointer;
     font-family: var(--fonte-principal);
     font-size: 1rem;
-    padding: 0 1em;
-    margin: 1em 0 1em 0;
+    margin-top: 1em;
+    padding: .5em;
     transition: 0.2s;
+}
+
+.backend-botao {
+    border: 1px solid var(--cor-secundaria);
 }
 
 @keyframes surgir {
@@ -75,17 +79,27 @@
     .certificados__campo {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
         gap: 2em;
+        justify-content: center;
     }
 
-    .certificados__campo-card:hover{
-        filter: drop-shadow(0 0 30px var(--sombra-principal));
+    .frontend:hover{
+        filter: drop-shadow(0 0 30px var(--sombra));
+    }
+    
+    .backend:hover{
+        filter: drop-shadow(0 0 30px var(--cor-secundaria));
     }
 
-    .certificados__botao:hover {
+    .frontend-botao:hover, .backend-botao:hover {
         background: var(--cor-principal);
         box-shadow: 0 0 100px var(--cor-principal);
         color: var(--branco);
+        text-decoration: none;
+    }
+    
+    .backend-botao:hover {
+        background: var(--cor-secundaria);
+        box-shadow: 0 0 100px var(--cor-secundaria);
     }
 }

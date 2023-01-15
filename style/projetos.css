@@ -1,7 +1,7 @@
 .projetos {
     background: linear-gradient(var(--cor-fundo), var(--cor-fundo-escuro));
-    padding-bottom: 5rem;
     padding: 1em;
+    padding-bottom: 5rem;
 }
 
 .projetos__titulo {
@@ -12,32 +12,32 @@
     font-weight: bold;
     margin: 0.5em 1.7em 0 1.7em;
     padding-top: 2rem;
-    text-transform: uppercase   ;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .cards {
+    align-items: center;
     animation: surgir 2s normal;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .projetos__card {
-    text-align: center;
     background: var(--cor-fundo-escuro);
     border: .5px solid var(--cor-principal);
     border-radius: 20px;
     margin: 2rem 0 0 0;
+    text-align: center;
     transition: 0.2s;
 }
 
 
 .projetos__card-img {
     border-radius: 1.3em;
+    height: 250px;
     transition: 0.2s;
     width: 400px;
-    height: 250px;
 }
 
 
@@ -75,7 +75,7 @@
     }
 
     .projetos__card:hover {
-        filter: drop-shadow(0 0 10px var(--cor-principal));
+        filter: drop-shadow(0 0 10px var(--sombra));
     }
 
     .cards {
@@ -83,8 +83,8 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
         gap: 3em;
+        justify-content: center;
     }
     .projetos__card-botao:hover {
         background: var(--cor-principal);

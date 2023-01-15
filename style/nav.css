@@ -4,39 +4,38 @@
 
 @media screen and (min-width: 768px) {
     .topo {
-        display: flex;
-        position: fixed;
         bottom: 1em;
+        display: flex;
         margin-left: 25vw;
-        
+        position: fixed;
+        z-index: 2;
     }
     
     .nav {
         backdrop-filter: blur(5px);
+        border-radius: 20em;
         display: flex;
         gap: 4em;
         justify-content: center;
         padding: 1em;
-        border-radius: 20em;
     }
     
     .nav_icone {
         height: 1.5em;
+        transition: 0.1s;
         width: 1.5em;
-        transition: 0.2s;
-        
+        padding: .5em;
     }
     
     .nav_icone:hover{
         background: var(--cor-principal);
         border-radius: 50%;
-        padding: 0.2em;
-        filter: drop-shadow(0 0 5px var(--cor-principal));
+        filter: drop-shadow(0 0 5px var(--sombra));
     }  
 }
 
 @media screen and (min-width: 1024px) {
     .topo {
-        margin: 0 35vw;
+        margin: 0 34vw;
     }
 }

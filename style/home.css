@@ -40,10 +40,6 @@ strong {
     transition: 0.2s;
 }
 
-.home__textos-botao:hover {
-    background: var(--cor-principal); 
-    box-shadow: 0 0 90px var(--cor-principal); 
-}
 
 @keyframes quicar {
     0% { transform: translateY(0);}
@@ -59,27 +55,32 @@ strong {
     }
 
     .home__logo {
+        animation: quicar infinite 5s;
         display: block;
         margin: 0 1em 0 0;
-        animation: quicar infinite 5s;
     }
 
     .home__textos {
         color: var(--branco);
         padding: 2em 1em 0 2em;
     }
+    
+    .home__textos-botao:hover {
+        background: var(--cor-principal); 
+        box-shadow: 0 0 90px var(--sombra); 
+    }
 }
 
 @media screen and (min-width: 1080px){
     .home {
-        width: 100%;
         height: 40em;
+        width: 100%;
     }
 
     .home__logo {
         height: 30em;
-        width: 30em;
         margin: 0 3em 0 1em;
+        width: 30em;
     }
 
     .home__textos {

@@ -13,19 +13,19 @@ a:hover {
 }
 
 .contatos__titulo {
-    text-align: center;
-    text-transform: uppercase;
+    border-bottom: 2px solid var(--cor-principal);
+    color: var(--branco);
     font-size: 2em;
     font-weight: 700;
-    color: var(--branco);
-    border-bottom: 2px solid var(--cor-principal);
     margin: 0 2em 2em 2em;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .contatos__contatar, .contatos__contatar_form {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .contatos__form_titulo {
@@ -48,22 +48,22 @@ a:hover {
 }
 
 .contatos__form_botao {
-    border-radius: 5px;
-    border: none;
-    margin: 1em 0 0 0;
-    padding: 0.3em 0;
-    width: 20em;
-    text-transform: uppercase;
     background: var(--cor-principal);
-    font-family: var(--fonte-principal);
-    font-weight: 700;
+    border: none;
+    border-radius: 5px;
     color: var(--branco);
     cursor: pointer;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    margin: 1em 0 0 0;
+    padding: 0.3em 0;
+    text-transform: uppercase;
+    width: 20em;
 }
 
 .contatos__links {
-    text-align: center;
     font-weight: 200;
+    text-align: center;
 }
 
 .contatos__links_packs {
@@ -77,15 +77,15 @@ a:hover {
 }
 
 .contatos__links_subtitulo {
-    margin: 1em 0 0 0;
     color: var(--branco);
+    margin: 1em 0 0 0;
 }
 
 .copy {
     color: var(--branco);
     font-size: 0.8em;
-    text-align: center;
     padding: 5em 0 1em 0;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -100,10 +100,10 @@ a:hover {
     }
     .contatos__links {
         display: flex;
-        gap: 3em 10em;
         flex-wrap: wrap;
-        width: 535px;
+        gap: 3em 10em;
         justify-content: flex-start;
+        width: 535px;
     }
     .contatos__links_packs:nth-child(3) {
         margin-left: 3.5em;
@@ -115,8 +115,8 @@ a:hover {
     .copy {
         color: var(--branco);
         font-size: 0.8em;
-        text-align: center;
         padding: 5em 0 7em 0;
+        text-align: center;
     }
 }
 
@@ -129,15 +129,15 @@ a:hover {
         display: flex;
         flex-direction: row;
         gap: 1em;
-        margin: 0 1em 0 1em;
         justify-content: center;
+        margin: 0 1em 0 1em;
     }
     .contatos__links {
         display: flex;
-        gap: 3em;
         flex-wrap: wrap;
-        width: 535px;
+        gap: 3em;
         justify-content: flex-start;
+        width: 535px;
     }
     .contatos__links_packs:nth-child(3) {
         margin-left: 3.5em;

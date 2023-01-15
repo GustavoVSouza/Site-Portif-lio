@@ -58,13 +58,13 @@
     .skills__areas-front:hover, .skills__areas-back:hover {
         background: var(--cor-fundo-escuro);
         border: 0.5px solid var(--cor-principal);
-        box-shadow: 0 0 90px var(--sombra-principal);
+        box-shadow: 0 0 90px var(--sombra);
     }
 
     .skills__areas {
+        align-items: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     .skills__areas-back {
@@ -78,17 +78,17 @@
     }
 
     .skills__areas-front, .skills__areas-back {
-        text-transform: uppercase;
-        width: 10em;
-        padding: 2em 5em;
-        transition: 0.4s;
         margin: 4em 0 10em 0;
+        padding: 2em 5em;
+        text-transform: uppercase;
+        transition: 0.4s;
+        width: 10em;
     }
 
     .skills__areas {
         display: flex;
         flex-direction: row;
-        justify-content: center;
         gap: 3em;
+        justify-content: center;
     }
 }

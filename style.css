@@ -1,4 +1,6 @@
+/*Fonte Importada*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*CSS Impotados*/
 @import url("./style/home.css");
 @import url("./style/skills.css");
 @import url("./style/projetos.css");
@@ -7,13 +9,16 @@
 @import url("./style/nav.css");
 
 :root {
-    --cor-principal: #00B1FC;
-    --sombra-principal: #00648f;
-    --cor-principal-escura: #003146;
+    /*Cores*/
+    --branco: white;
     --cor-fundo: #0F0F0F;
     --cor-fundo-claro: #191919;
     --cor-fundo-escuro: #000000;
-    --branco: white;
+    --cor-principal: #00B1FC;
+    --cor-principal-escura: #19456B;
+    --cor-secundaria: #16C79A;
+    --sombra: #00648f;
+    /*Fonte*/
     --fonte-principal: 'Poppins', sans-serif;
 }
 
