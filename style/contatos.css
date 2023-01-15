@@ -72,8 +72,8 @@ a:hover {
 
 .contatos__links_icones {
     border: 1px solid var(--branco);
-    border-radius: 50%;
-    padding: 0.3em;
+    border-radius: 30%;
+    padding: .3em;
 }
 
 .contatos__links_subtitulo {
