@@ -26,7 +26,6 @@
 }
 
 .certificados__titulo {
-    animation: surgir 2s normal;
     border-bottom: 2px solid var(--cor-principal);
     color: var(--branco);
     font-size: 2.5rem;
@@ -60,11 +59,6 @@
 
 .backend-botao {
     border: 1px solid var(--cor-secundaria);
-}
-
-@keyframes surgir {
-    0% { transform: translateX(-100%);}
-    50% { transform: translateX(+0.1%);}
 }
 
 @media screen and (min-width: 768px) {

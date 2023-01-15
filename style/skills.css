@@ -4,7 +4,6 @@
 }
 
 .skills__titulo {
-    animation: surgir 2s normal;
     border-bottom: 2px solid var(--cor-principal);
     color: var(--branco);
     font-size: 2.5rem;
@@ -36,11 +35,6 @@
 .skills__areas-front-lista-itens, .skills__areas-back-lista-itens {
     margin-top: 1em;
     text-transform: uppercase;
-}
-
-@keyframes surgir {
-    0% { transform: translateX(-100%);}
-    50% { transform: translateX(+0.1%);}
 }
 
 @media screen and (min-width: 768px) {
