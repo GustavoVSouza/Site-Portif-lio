@@ -44,7 +44,7 @@
     }
 
     .skills__areas-front, .skills__areas-back {
-        margin: 2.5em 0 1em 0;
+        margin: 2.5em 5em 1em 5em;
         padding: 2em 5em;
         transition: 0.4s;
     }
@@ -62,7 +62,7 @@
     }
 
     .skills__areas-back {
-        margin: 2.5em 0 10em 0;
+        margin: 2.5em 5em 10em 5em;
     }
 }
 
