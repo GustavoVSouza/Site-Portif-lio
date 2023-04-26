@@ -30,6 +30,7 @@ strong {
 .home__textos_botoes {
     display: flex;
     gap: 1em;
+    flex-wrap: wrap;
 }
 
 .home__textos-botao{
