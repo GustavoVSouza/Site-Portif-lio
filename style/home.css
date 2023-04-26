@@ -28,16 +28,17 @@ strong {
 }
 
 .home__textos-botao{
-    background: transparent;
-    border: 1.8px var(--cor-principal) solid;
-    border-radius: 10px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border-radius: 16px;
     color: var(--branco);
     cursor: pointer;
     font-size: 1.5rem;
     font-family: var(--fonte);
-    padding: 0.25em 0.25em;
+    padding: 0.5em 1em;
     margin: 0.5em 0 0 0 ;
     transition: 0.2s;
+    width: auto;
+    border: none;
 }
 
 
@@ -64,11 +65,26 @@ strong {
         color: var(--branco);
         padding: 2em 1em 0 2em;
     }
-    
-    .home__textos-botao:hover {
-        background: var(--cor-principal); 
-        box-shadow: 0 0 90px var(--sombra); 
+
+    .home__textos-botao:hover{
+        background: var(--cor-principal);
+        filter: drop-shadow(0 0 1em var(--cor-principal));
+        letter-spacing: 0.01em;
     }
+
+      .home__textos-botao svg {
+        margin-right: 3px;
+        transform: rotate(30deg);
+        transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+      }
+      
+      .home__textos-botao span {
+        transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+      }
+      
+      .home__textos-botao:hover svg {
+        transform: rotate(90deg);
+      }
 }
 
 @media screen and (min-width: 1080px){
@@ -100,3 +116,6 @@ strong {
         font-size: 1.5rem;
     }
 }
+
+
+  

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,36 +10,54 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
 </head>
+
 <body>
     <main id="conteudo">
         <header class="topo">
             <ul class="nav">
                 <li class="nav__item">
-                  <a href="#home"><img class="nav_icone" src="assets/img/casa.svg" alt="menu de acesso a home"></a>
+                    <a href="#home"><img class="nav_icone" src="assets/img/casa.svg" alt="menu de acesso a home"></a>
                 </li>
                 <li class="nav__item">
-                  <a href="#skills"><img class="nav_icone" src="assets/img/skills.svg" alt="menu de acesso as skills"></a>
+                    <a href="#skills"><img class="nav_icone" src="assets/img/skills.svg"
+                            alt="menu de acesso as skills"></a>
                 </li>
                 <li class="nav__item">
-                  <a href="#projetos"><img class="nav_icone" src="assets/img/projetos.svg" alt="menu de acesso aos projetos"></a>
+                    <a href="#projetos"><img class="nav_icone" src="assets/img/projetos.svg"
+                            alt="menu de acesso aos projetos"></a>
                 </li>
                 <li class="nav__item">
-                  <a href="#certificados"><img class="nav_icone" src="assets/img/certificado.png" alt="menu de acesso aos certificados"></a>
+                    <a href="#certificados"><img class="nav_icone" src="assets/img/certificado.png"
+                            alt="menu de acesso aos certificados"></a>
                 </li>
                 <li class="nav__item">
-                    <a href="#contatos"><img class="nav_icone" src="assets/img/telefone.svg" alt="menu de acesso aos contatos"></a>
-                  </li>
-              </ul>
+                    <a href="#contatos"><img class="nav_icone" src="assets/img/telefone.svg"
+                            alt="menu de acesso aos contatos"></a>
+                </li>
+            </ul>
         </header>
 
         <section id="home" class="home">
-                <div class="home__textos">
-                    <h1 class="home__textos-titulo">Olá<br>Eu sou <strong>Gustavo</strong>,<br>Desenvolvedor Front-End</h1>
-                    <p class="home__textos-texto">Me chamo Gustavo Souza, mas pode me chamar de <strong>Gusta</strong>. Tenho 19 anos e sou apaixonado por tecnologia e programação</p>
-                    <a href="./assets/doc/Currículo  Gustavo Souza.pdf" target="_blank"><button class="home__textos-botao">Baixar CV</button></a>
-                    <a href="https://wa.me/5511969590547" target="_blank"><button class="home__textos-botao">Vamos conversar</button></a>
-                </div>
-                <img src="assets/img/logo.svg" alt="Logo Gustavo Souza" class="home__logo">
+            <div class="home__textos">
+                <h1 class="home__textos-titulo">Olá<br>Eu sou <strong>Gustavo</strong>,<br>Desenvolvedor Front-End</h1>
+                <p class="home__textos-texto">Me chamo Gustavo Souza, mas pode me chamar de <strong>Gusta</strong>.
+                    Tenho 19 anos e sou apaixonado por tecnologia e programação</p>
+                <a href="assets/doc/Currículo  Gustavo Souza.pdf" target="_blank">
+                    <button class="home__textos-botao">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path fill="currentColor"
+                                d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z">
+                            </path>
+                        </svg>
+                        <span>Baixar CV</span>
+                    </button>
+                </a>
+                <a href="https://wa.me/5511969590547" target="_blank">
+                    <button class="home__textos-botao">Vamos conversar</button>
+                </a>
+            </div>
+            <img src="assets/img/logo.svg" alt="Logo Gustavo Souza" class="home__logo">
         </section>
 
         <section id="skills" class="skills">
@@ -70,40 +89,57 @@
             <h2 class="projetos__titulo">Projetos</h2>
             <ul class="cards">
                 <li class="projetos__card">
-                    <img class="projetos__card-img" src="assets/img/Projeto 1.jpg" alt="Imagem do projeto mesa de som treino de java script">
+                    <img class="projetos__card-img" src="assets/img/Projeto 1.jpg"
+                        alt="Imagem do projeto mesa de som treino de java script">
                     <h3 class="projetos__card-titulo">Mesa de Som</h3>
-                    <a href="https://mesa-de-som.vercel.app" target="_blank"><button class="projetos__card-botao">Demo</button></a>
-                    <a href="https://github.com/GustavoVSouza/Mesa-de-Som" target="_blank"><button class="projetos__card-botao">GitHub</button></a>
+                    <a href="https://mesa-de-som.vercel.app" target="_blank"><button
+                            class="projetos__card-botao">Demo</button></a>
+                    <a href="https://github.com/GustavoVSouza/Mesa-de-Som" target="_blank"><button
+                            class="projetos__card-botao">GitHub</button></a>
                 </li>
                 <li class="projetos__card">
-                    <img class="projetos__card-img" src="assets/img/Projeto 2.jpg" alt="Imagem do projeto apeperia treino de responsividade">
+                    <img class="projetos__card-img" src="assets/img/Projeto 2.jpg"
+                        alt="Imagem do projeto apeperia treino de responsividade">
                     <h3 class="projetos__card-titulo">Apeperia</h3>
-                    <a href="https://apeperia-mu.vercel.app" target="_blank"><button class="projetos__card-botao">Demo</button></a>
-                    <a href="https://github.com/GustavoVSouza/Apeperia" target="_blank"><button class="projetos__card-botao">GitHub</button></a>
+                    <a href="https://apeperia-mu.vercel.app" target="_blank"><button
+                            class="projetos__card-botao">Demo</button></a>
+                    <a href="https://github.com/GustavoVSouza/Apeperia" target="_blank"><button
+                            class="projetos__card-botao">GitHub</button></a>
                 </li>
                 <li class="projetos__card">
-                    <img class="projetos__card-img" src="assets/img/Projeto 3.jpg" alt="Imagem do projeto loja de aplicativos com css grid">
+                    <img class="projetos__card-img" src="assets/img/Projeto 3.jpg"
+                        alt="Imagem do projeto loja de aplicativos com css grid">
                     <h3 class="projetos__card-titulo">Aplicativos</h3>
-                    <a href="https://aplicativos-amber.vercel.app" target="_blank"><button class="projetos__card-botao">Demo</button></a>
-                    <a href="https://github.com/GustavoVSouza/Treinamentos-de-CSS-Grid" target="_blank"><button class="projetos__card-botao">GitHub</button></a>
+                    <a href="https://aplicativos-amber.vercel.app" target="_blank"><button
+                            class="projetos__card-botao">Demo</button></a>
+                    <a href="https://github.com/GustavoVSouza/Treinamentos-de-CSS-Grid" target="_blank"><button
+                            class="projetos__card-botao">GitHub</button></a>
                 </li>
                 <li class="projetos__card">
                     <img class="projetos__card-img" src="assets/img/Projeto 4.jpg" alt="Imagem do projeto Alura livros">
                     <h3 class="projetos__card-titulo">AluraBook</h3>
-                    <a href="https://gustavovsouza.github.io/AluraBook/" target="_blank"><button class="projetos__card-botao">Demo</button></a>
-                    <a href="https://github.com/GustavoVSouza/AluraBook" target="_blank"><button class="projetos__card-botao">GitHub</button></a>
+                    <a href="https://gustavovsouza.github.io/AluraBook/" target="_blank"><button
+                            class="projetos__card-botao">Demo</button></a>
+                    <a href="https://github.com/GustavoVSouza/AluraBook" target="_blank"><button
+                            class="projetos__card-botao">GitHub</button></a>
                 </li>
                 <li class="projetos__card">
-                    <img class="projetos__card-img" src="assets/img/Projeto 5.jpg" alt="Imagem do projeto de jogo com reconhecimento de voz">
+                    <img class="projetos__card-img" src="assets/img/Projeto 5.jpg"
+                        alt="Imagem do projeto de jogo com reconhecimento de voz">
                     <h3 class="projetos__card-titulo">Acerte o número - Reconhecimento de Voz</h3>
-                    <a href="https://jogo-com-reconhecimento-de-voz-amber.vercel.app/" target="_blank"><button class="projetos__card-botao">Demo</button></a>
-                    <a href="https://github.com/GustavoVSouza/Jogo-com-Reconhecimento-de-Voz" target="_blank"><button class="projetos__card-botao">GitHub</button></a>
+                    <a href="https://jogo-com-reconhecimento-de-voz-amber.vercel.app/" target="_blank"><button
+                            class="projetos__card-botao">Demo</button></a>
+                    <a href="https://github.com/GustavoVSouza/Jogo-com-Reconhecimento-de-Voz" target="_blank"><button
+                            class="projetos__card-botao">GitHub</button></a>
                 </li>
                 <li class="projetos__card">
-                    <img class="projetos__card-img" src="assets/img/Projeto 6.jpg" alt="Imagem do projeto de validação de formulario com JavaScript">
+                    <img class="projetos__card-img" src="assets/img/Projeto 6.jpg"
+                        alt="Imagem do projeto de validação de formulario com JavaScript">
                     <h3 class="projetos__card-titulo">GustaBank | Validacao de formulario</h3>
-                    <a href="https://gusta-bank.vercel.app/" target="_blank"><button class="projetos__card-botao">Demo</button></a>
-                    <a href="https://github.com/GustavoVSouza/GustaBank-Validacao-de-formulario" target="_blank"><button class="projetos__card-botao">GitHub</button></a>
+                    <a href="https://gusta-bank.vercel.app/" target="_blank"><button
+                            class="projetos__card-botao">Demo</button></a>
+                    <a href="https://github.com/GustavoVSouza/GustaBank-Validacao-de-formulario" target="_blank"><button
+                            class="projetos__card-botao">GitHub</button></a>
                 </li>
             </ul>
         </section>
@@ -112,24 +148,35 @@
             <h2 class="certificados__titulo">Certificados</h2>
             <div class="certificados__campo">
                 <div class="certificados__campo-card frontend">
-                    <img src="assets/img/certificado 1.jpg" alt="certificado de uma formação front-end feito na alura" class="certificados__campo-imagem">
+                    <img src="assets/img/certificado 1.jpg" alt="certificado de uma formação front-end feito na alura"
+                        class="certificados__campo-imagem">
                     <h3 class="certificados__subtitulo">Front-End</h3>
-                    <a href="./assets/doc/Certificado 1.pdf" target="_blank" class="certificados__botao frontend-botao">Verificar</a>
+                    <a href="./assets/doc/Certificado 1.pdf" target="_blank"
+                        class="certificados__botao frontend-botao">Verificar</a>
                 </div>
                 <div class="certificados__campo-card frontend">
-                    <img src="assets/img/certificado 2.jpg" alt="certificado de uma formação, javaScript para front-end, feito na alura" class="certificados__campo-imagem">
+                    <img src="assets/img/certificado 2.jpg"
+                        alt="certificado de uma formação, javaScript para front-end, feito na alura"
+                        class="certificados__campo-imagem">
                     <h3 class="certificados__subtitulo">JavaScript para Front-End</h3>
-                    <a href="./assets/doc/Certificado 2.pdf" target="_blank" class="certificados__botao frontend-botao">Verificar</a>
+                    <a href="./assets/doc/Certificado 2.pdf" target="_blank"
+                        class="certificados__botao frontend-botao">Verificar</a>
                 </div>
                 <div class="certificados__campo-card frontend">
-                    <img src="assets/img/certificado 3.jpg" alt="certificado de uma formação, HTML e CSS, feito na alura" class="certificados__campo-imagem">
+                    <img src="assets/img/certificado 3.jpg"
+                        alt="certificado de uma formação, HTML e CSS, feito na alura"
+                        class="certificados__campo-imagem">
                     <h3 class="certificados__subtitulo">HTML e CSS</h3>
-                    <a href="./assets/doc/Certificado 3.pdf" target="_blank" class="certificados__botao frontend-botao">Verificar</a>
+                    <a href="./assets/doc/Certificado 3.pdf" target="_blank"
+                        class="certificados__botao frontend-botao">Verificar</a>
                 </div>
                 <div class="certificados__campo-card backend">
-                    <img src="assets/img/certificado 4.jpg" alt="certificado de uma formação, Iniciante em Programação, feito na alura" class="certificados__campo-imagem">
+                    <img src="assets/img/certificado 4.jpg"
+                        alt="certificado de uma formação, Iniciante em Programação, feito na alura"
+                        class="certificados__campo-imagem">
                     <h3 class="certificados__subtitulo">Iniciante em Programação</h3>
-                    <a href="./assets/doc/Certificado 4.pdf" target="_blank" class="certificados__botao backend-botao">Verificar</a>
+                    <a href="./assets/doc/Certificado 4.pdf" target="_blank"
+                        class="certificados__botao backend-botao">Verificar</a>
                 </div>
             </div>
         </section>
@@ -137,39 +184,53 @@
         <section class="contatos" id="contatos">
             <h2 class="contatos__titulo">CONTATOS</h2>
             <div class="contatos__contatar">
-            <div>
-                <form class="contatos__contatar_form" action="https://formsubmit.co/gustavovsouza90@gmail.com" method="POST">
-                    <input type="hidden" name="_next" value="https://gustavo-souza-portifolio.vercel.app/#home">
-                    <input type="hidden" name="_captcha" value="false">
-                    <input class="contatos__form_inputNome" type="text" name="nome" placeholder="  Digite seu nome" required>
-                    <input class="contatos__form_inputNome" type="text" name="assunto" placeholder="  Assunto" required>
-                    <input class="contatos__form_inputEmail" type="email" name="email" placeholder="  Digite seu email" required>
-                    <input class="contatos__form_inputMensagem" type="text" name="mensagem" placeholder="  Mensagem" required></input>
-                    <button type="submit" class="contatos__form_botao">Enviar</button>
-                </form>
-            </div>
+                <div>
+                    <form class="contatos__contatar_form" action="https://formsubmit.co/gustavovsouza90@gmail.com"
+                        method="POST">
+                        <input type="hidden" name="_next" value="https://gustavo-souza-portifolio.vercel.app/#home">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input class="contatos__form_inputNome" type="text" name="nome" placeholder="  Digite seu nome"
+                            required>
+                        <input class="contatos__form_inputNome" type="text" name="assunto" placeholder="  Assunto"
+                            required>
+                        <input class="contatos__form_inputEmail" type="email" name="email"
+                            placeholder="  Digite seu email" required>
+                        <input class="contatos__form_inputMensagem" type="text" name="mensagem" placeholder="  Mensagem"
+                            required></input>
+                        <button type="submit" class="contatos__form_botao">Enviar</button>
+                    </form>
+                </div>
 
-            <div class="contatos__links">
-                <div class="contatos__links_packs">
-                    <img src="assets/img/Email - rodape.svg" alt="icone de email" class="contatos__links_icones">
-                    <p class="contatos__links_subtitulo">gustavovsouza90@gmail.com</p>
-                </div>
-                <div class="contatos__links_packs">
-                    <img src="assets/img/telefone - rodape.svg" alt="icone de telefone" class="contatos__links_icones">
-                    <a href="https://wa.me/5511969590547" target="_blank"><p class="contatos__links_subtitulo">(11)96959-0547</p></a>
-                </div>
-                <div class="contatos__links_packs">
-                    <img src="assets/img/linkedin - rodape.svg" alt="icone do linkedin" class="contatos__links_icones">
-                    <a href="https://www.linkedin.com/in/gustavo-souza-40a288232/" target="_blank"><p class="contatos__links_subtitulo">@gustavosouza</p></a>
-                </div>
-                <div class="contatos__links_packs">
-                    <img src="assets/img/github - rodape.svg" alt="icone do github" class="contatos__links_icones">
-                    <a href="https://github.com/GustavoVSouza" target="_blank"><p class="contatos__links_subtitulo">@GustavoVSouza</p></a>
+                <div class="contatos__links">
+                    <div class="contatos__links_packs">
+                        <img src="assets/img/Email - rodape.svg" alt="icone de email" class="contatos__links_icones">
+                        <p class="contatos__links_subtitulo">gustavovsouza90@gmail.com</p>
+                    </div>
+                    <div class="contatos__links_packs">
+                        <img src="assets/img/telefone - rodape.svg" alt="icone de telefone"
+                            class="contatos__links_icones">
+                        <a href="https://wa.me/5511969590547" target="_blank">
+                            <p class="contatos__links_subtitulo">(11)96959-0547</p>
+                        </a>
+                    </div>
+                    <div class="contatos__links_packs">
+                        <img src="assets/img/linkedin - rodape.svg" alt="icone do linkedin"
+                            class="contatos__links_icones">
+                        <a href="https://www.linkedin.com/in/gustavo-souza-40a288232/" target="_blank">
+                            <p class="contatos__links_subtitulo">@gustavosouza</p>
+                        </a>
+                    </div>
+                    <div class="contatos__links_packs">
+                        <img src="assets/img/github - rodape.svg" alt="icone do github" class="contatos__links_icones">
+                        <a href="https://github.com/GustavoVSouza" target="_blank">
+                            <p class="contatos__links_subtitulo">@GustavoVSouza</p>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <h2 class="copy">Copyright &copy; | Gustavo Souza | 2022</h2>
+            <h2 class="copy">Copyright &copy; | Gustavo Souza | 2022</h2>
         </section>
     </main>
 </body>
+
 </html>
