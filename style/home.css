@@ -27,8 +27,13 @@ strong {
     margin: 1em 1em 1em 0;
 }
 
+.home__textos_botoes {
+    display: flex;
+    gap: 1em;
+}
+
 .home__textos-botao{
-    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: none;
     border-radius: 16px;
     color: var(--branco);
     cursor: pointer;
@@ -39,6 +44,7 @@ strong {
     transition: 0.2s;
     width: auto;
     border: none;
+    border-bottom: 2px solid var(--cor-principal);
 }
 
 
